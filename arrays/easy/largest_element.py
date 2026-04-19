@@ -1,13 +1,18 @@
-def findLargest(arr):
-    max = arr[0]
-    for num in arr:
-        if(num>max):
-            max=num
-    return max
+def findLargest(arr,n):
+    if n==0:
+        print(-1)
+    max_val = float('-inf')
+    for i in range(n):
+        max_val = max(max_val,arr[i])
+    return max_val
+   
+    
 
 if __name__ == "__main__":
-    print("Largest element in an array")
-    arr = [2,1,3,5,4]
-    largest = findLargest(arr)
+    print("starting function")
+    #even if there are duplicates
+    arr = [2,1,5,5,5]
+    n = len(arr)
+    largest = findLargest(arr,n)
     print("largest element is",largest)
 
