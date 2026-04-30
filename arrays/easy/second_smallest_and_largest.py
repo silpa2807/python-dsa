@@ -1,3 +1,5 @@
+#https://takeuforward.org/data-structure/find-second-smallest-and-second-largest-element-in-an-array
+
 def find_second_largest(arr,n):
     if n == 0 or n==1:
         print(-1,-1)
