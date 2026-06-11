@@ -1,5 +1,9 @@
 #https://takeuforward.org/data-structure/check-if-an-array-is-sorted
 
+#leetcode link is 
+#https://leetcode.com/problems/check-if-array-is-sorted-and-rotated/description/
+
+
 #brute force for with n^2 complexity
 
 def isSorted(arr,n):
