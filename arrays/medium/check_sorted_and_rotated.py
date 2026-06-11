@@ -1,6 +1,7 @@
 #https://leetcode.com/problems/check-if-array-is-sorted-and-rotated
 
 #brute force with n^2 complexity
+
 class Solution:
     def check(nums):
         n = len(nums)
